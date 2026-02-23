@@ -1,5 +1,6 @@
 <script>
   import projects from '$lib/projects.json';
+  import Project from "$lib/Project.svelte";
 </script>
 
 <svelte:head>
@@ -20,15 +21,7 @@
 
 <div class="projects">
   {#each projects as p}
-    <article>
-      <h2>{p.title}</h2>
-      <img src={p.image} alt={p.title} />
-      <p>{p.description}</p>
-
-      {#if p.url}
-        <a href={p.url}>View Full Report</a>
-      {/if}
-    </article>
+    <Project data={p} />
   {/each}
 </div>
 
