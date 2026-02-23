@@ -25,7 +25,7 @@
     <h1>Dila Ozberkman</h1>
     <p>I am a (super) senior at MIT double majoring in Architecture and Urban Planning. I am from Cyprus!</p>
     <img class="fit-picture"
-    width="300"
+    width="400"
     height=auto
     src="images/dila_pic.jpg"
     alt="Dila outside MIT Building 8 on a sunny day"
