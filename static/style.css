@@ -169,14 +169,6 @@ img {
     margin: 0;
 }
 
-.projects-highlights h1 {
-    font-size: 300%;
-}
-
-.projects-highlights h2 {
-    font-size: 200%;
-}
-
 /* STEP 5: Style your CV */
 
     /* HINT: one thing you could do here is define an ID selector in your resume/index.html -> <section id="resume">

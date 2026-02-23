@@ -44,4 +44,8 @@
     gap: 1em;
     margin-top: 2em;
   }
+  .projects :global(h2) {
+    font-size: 150%; 
+    margin-bottom: 0.5rem;
+  }
 </style>
