@@ -86,7 +86,7 @@ Conference on Urban Climate (ICUC).</em> Rotterdam, Netherlands, July 2025.</p>
   <h2>ACTIVITIES</h2>
   <div class="cv-grid">
     <div class="cv-left">
-      <h3>Exhibition Design Assistant for Venice Biennale 2023</a></h3>
+      <h3>Exhibition Design Assistant for Venice Biennale 2023</h3>
     </div>
     <div class="cv-right">
       <p><time datetime="2023-03">March 2023</time>–<time datetime="2023-05">May 2023</time></p>
