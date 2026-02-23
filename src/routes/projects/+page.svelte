@@ -1,5 +1,4 @@
 <script>
-  // This line "defines" projects by pulling the data from your JSON file [cite: 350]
   import projects from '$lib/projects.json';
 </script>
 
