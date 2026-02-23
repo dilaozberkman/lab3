@@ -27,8 +27,8 @@
 
 <img
     class="fit-picture"
-    width=auto
-    height="400"
+    width="150"
+    height=auto
     src="images/dila_pic.jpg"
     alt="Dila outside MIT Building 8 on a sunny day"
 />
