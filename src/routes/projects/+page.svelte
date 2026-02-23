@@ -40,12 +40,6 @@
     gap: 1em;
   }
 
-  article {
-    border: 1px solid #ccc;
-    padding: 1em;
-    border-radius: 8px;
-  }
-
   article img {
     width: 100%;
     height: auto;
