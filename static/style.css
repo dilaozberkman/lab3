@@ -159,16 +159,6 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 }
 
-.projects > article {
-    display: grid;
-    grid-template-rows: subgrid;
-    grid-row: span 3;
-}
-
-.projects article h2 {
-    margin: 0;
-}
-
 /* STEP 5: Style your CV */
 
     /* HINT: one thing you could do here is define an ID selector in your resume/index.html -> <section id="resume">
