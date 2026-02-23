@@ -169,6 +169,13 @@ img {
     margin: 0;
 }
 
+.projects-highlights h1 {
+    font-size: 200%;
+}
+
+.projects-highlights h2 {
+    font-size: 100%;
+}
 
 /* STEP 5: Style your CV */
 
