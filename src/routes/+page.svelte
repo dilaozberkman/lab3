@@ -20,11 +20,6 @@
     </ul>
 </nav>
 
-<h1>Dila Ozberkman</h1>
-<p>
-    I am a (super) senior at MIT double majoring in Architecture and Urban Planning. I am from Cyprus!
-</p>
-
 <div class="container">
   <section class="profile">
     <h1>Dila Ozberkman</h1>
