@@ -6,7 +6,7 @@
   <img src={data.image} alt="Cover of {data.title}" />
   
   <div class="details">
-    <h3>{data.title}</h3>
+    <h3 class="title">{data.title}</h3>
     <p class="author">By {data.author}</p>
     
     {#if data.rating}
@@ -36,10 +36,13 @@
     font-size: 1.1em;
   }
 
+  .title {
+    color: var(--color-accent);
+  }
+
   .author {
     font-style: italic;
     margin: 0.2em 0;
-    color: var(--color-accent);
   }
 
   .rating {
