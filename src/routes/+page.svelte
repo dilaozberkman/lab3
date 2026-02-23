@@ -30,9 +30,16 @@
     alt="Dila outside MIT Building 8 on a sunny day"
 />
 
-<div class="projects-highlights">
-    <h1>Latest Projects</h1>
-    {#each projects.slice(0, 3) as p}
+<div class="projects"> <h2>Latest Projects</h2> {#each projects.slice(0, 3) as p}
         <Project data={p} />
     {/each}
 </div>
+
+<style>
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1em;
+    margin-top: 2em;
+  }
+</style>
