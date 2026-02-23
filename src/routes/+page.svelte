@@ -1,3 +1,8 @@
+<script>
+  import projects from '$lib/projects.json';
+  import Project from "$lib/Project.svelte";
+</script>
+
 <svelte:head>
     <title>Dila Ozberkman: Personal site and portfolio</title>
 </svelte:head>
@@ -24,3 +29,10 @@
     src="images/dila_pic.jpg"
     alt="Dila outside MIT Building 8 on a sunny day"
 />
+
+<div class="projects highlights">
+    <h3>Latest Projects</h3>
+    {#each projects.slice(0, 3) as p}
+        <Project data={p} />
+    {/each}
+</div>
