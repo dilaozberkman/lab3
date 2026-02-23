@@ -1,6 +1,9 @@
 <script>
   import projects from '$lib/projects.json';
   import Project from "$lib/Project.svelte";
+
+  import reading from '$lib/reading.json';
+  import ReadingItem from '$lib/ReadingItem.svelte';
 </script>
 
 <svelte:head>
@@ -30,6 +33,16 @@
     alt="Dila outside MIT Building 8 on a sunny day"
 />
 
+<section>
+  <h2>What I'm Reading!</h2>
+  
+  <div class="reading-list">
+    {#each reading as item}
+      <ReadingItem data={item} />
+    {/each}
+  </div>
+</section>
+
 <h2>Latest Projects</h2>
 
 <div class="projects"> {#each projects.slice(0, 3) as p}
@@ -46,5 +59,12 @@
   }
   .projects :global(h2) {
     font-size: 150%; 
+  }
+
+  .reading-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Stacked vertically for a list feel */
+    gap: 1.5rem;
+    margin-top: 1rem;
   }
 </style>

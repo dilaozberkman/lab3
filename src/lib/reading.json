@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Heart the Lover",
+    "author":"Lily King",
+    "image": "images/heart_the_lover_cover.jpg",
+    "rating": "8/10"
+  },
+  {
+    "title": "The Book of Laughter and Forgetting",
+    "author":"Milan Kundera",
+    "image": "images/laughter_forgetting.jpg",
+    "rating": "6.5/10"
+	},
+    {
+    "title": "The Island of Missing Trees",
+    "author":"Elif Shafak",
+    "image": "images/missing_trees.jpg",
+    "rating": "6/10"
+	}
+]
