@@ -39,11 +39,13 @@
   .author {
     font-style: italic;
     margin: 0.2em 0;
-    color: #555;
+    color: var(--color-accent);
   }
 
   .rating {
+    margin: 0;
     font-size: 0.9em;
     color: #666;
+    line-height: 1.4;
   }
 </style>

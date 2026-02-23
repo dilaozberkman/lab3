@@ -63,7 +63,7 @@
 
   .reading-list {
     display: grid;
-    grid-template-columns: 1fr; /* Stacked vertically for a list feel */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
   }
