@@ -30,7 +30,9 @@
     alt="Dila outside MIT Building 8 on a sunny day"
 />
 
-<div class="projects"> <h2>Latest Projects</h2> {#each projects.slice(0, 3) as p}
+<h2>Latest Projects</h2>
+
+<div class="projects"> {#each projects.slice(0, 3) as p}
         <Project data={p} />
     {/each}
 </div>
