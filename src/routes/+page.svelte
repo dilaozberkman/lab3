@@ -53,7 +53,7 @@
     .container {
     display: flex;
     gap: 4rem;
-    align-items: start;
+    align-items: center;
     margin-bottom: 3rem;
   }
 
