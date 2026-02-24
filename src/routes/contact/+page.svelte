@@ -38,11 +38,12 @@
     display: grid;
     gap: 1em;
     max-width: 400px;
+    width: 100%;
   }
 
   label {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 10rem 1fr;
   }
 
   input, textarea {
