@@ -54,7 +54,7 @@
     display: flex;
     gap: 4rem;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .profile {
