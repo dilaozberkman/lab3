@@ -31,19 +31,16 @@
 </form>
 
 <style>
-  /* Step 2.1: Add any CSS here that is specific to your contact form.
-     Svelte will ensure these styles don't leak to other pages.
-  */
+  /* Step 2.1: Add any CSS here that is specific to your contact form. */
   form {
     display: grid;
     gap: 1em;
-    max-width: 400px;
-    width: 100%;
+    width: 100%; 
   }
 
   label {
     display: grid;
-    grid-template-columns: 10rem 1fr;
+    grid-template-columns: 1fr; 
   }
 
   input, textarea {
