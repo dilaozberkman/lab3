@@ -131,11 +131,11 @@ label { /* We'll add the spacing between labels here */
         Please work on grid layout here.
         NOTE: this will override what you did in the previous step! remember *Specificity*
     */
-
 form {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1em;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    width: 100%; /* Force the grid to fill the body's 120ch width */
 }
 
 label {
