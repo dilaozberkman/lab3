@@ -10,16 +10,6 @@
     <title>Dila Ozberkman: Personal site and portfolio</title>
 </svelte:head>
 
-<nav>
-    <ul>
-      <li><a href="." class="current">Home</a></li>
-      <li><a href="projects">Projects</a></li>
-      <li><a href="contact">Contact</a></li>
-      <li><a href="https://github.com/dilaozberkman" target="_blank">Profile</a></li>
-      <li><a href="resume">CV</a></li>
-    </ul>
-</nav>
-
 <div class="container">
   <section class="profile">
     <h1>Dila Ozberkman</h1>

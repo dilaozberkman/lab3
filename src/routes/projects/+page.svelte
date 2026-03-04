@@ -7,16 +7,6 @@
   <title>Projects | Dila Ozberkman</title>
 </svelte:head>
 
-<nav class="menu">
-  <ul>
-    <li><a href=".">Home</a></li>
-    <li><a href="projects" class="current">Projects</a></li>
-    <li><a href="contact">Contact</a></li>
-    <li><a href="https://github.com/dilaozberkman" target="_blank">Profile</a></li>
-    <li><a href="resume">CV</a></li>
-  </ul>
-</nav>
-
 <h1>{projects.length} Projects</h1>
 
 <div class="projects">

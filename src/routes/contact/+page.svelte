@@ -2,16 +2,6 @@
   <title>Contact me | Dila Ozberkman</title>
 </svelte:head>
 
-<nav class="menu">
-  <ul>
-    <li><a href=".">Home</a></li>
-    <li><a href="projects">Projects</a></li>
-    <li><a href="contact" class="current">Contact</a></li>
-    <li><a href="https://github.com/dilaozberkman" target="_blank">Profile</a></li>
-    <li><a href="resume">CV</a></li>
-  </ul>
-</nav>
-
 <h1>Contact me!</h1>
 
 <form action="mailto:dilao003@mit.edu" method="get" enctype="text/plain">
