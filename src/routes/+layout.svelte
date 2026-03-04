@@ -32,7 +32,7 @@
         }
 
     nav {
-        --border-color: oklch(50% 10% 200 / 80%);
+        --border-color: oklch(50% 10% 200 / 50%);
         display: flex; /* Turns nav into a flex container */
         margin-bottom: 1em;
         border-bottom-width: 1px;
