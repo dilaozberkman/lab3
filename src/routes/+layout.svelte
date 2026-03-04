@@ -42,10 +42,9 @@
         }
 
     .color-scheme-switch {
-        position: absolute; 
-        top: 1rem; 
-        right: 1rem; 
-        /* Ensure it stays on top of other elements */
+        position: fixed; 
+        top: 1rem;       
+        right: 1rem;   
         z-index: 1000; 
         
         display: inline-flex;
