@@ -44,10 +44,9 @@
         }
 
     .color-scheme-switch {
-        position: fixed; 
+        position: absolute; 
         top: 1rem;       
-        right: 1rem;   
-        z-index: 1000; 
+        left: 1rem;   
         
         display: inline-flex;
         gap: 4px;
