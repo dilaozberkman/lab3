@@ -14,7 +14,6 @@
 :root {
     --color-accent: oklch(62.67% 0.289 15.1); /* Primary accent color in OKLCH format */
     --border-gray: oklch(80% 3% 200); /* Gray for borders */
-    --border-color: oklch(50% 10% 200 / 40%);
     /* ADD the rest of the color definitions here if needed! */
 }
 
