@@ -11,6 +11,8 @@
         {url: "https://github.com/dilaozberkman", title: "Github"},
         ];
     let colorScheme = "light dark";
+    let root = globalThis.document?.documentElement;
+    $: root?.style.setProperty("color-scheme", colorScheme);
 </script>
 
 <label class="color-scheme-switch">
