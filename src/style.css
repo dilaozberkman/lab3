@@ -23,6 +23,7 @@
     Here we can define the base style for the body element. We already added this in Lab 1, but let's complete it!
 */
 body {
+    position: relative;
     font: 100%/1.5 system-ui; /* 100% font size, 1.5 line height, system font. Same as in lab 1 */
     max-width: 120ch;
     margin-inline: auto;
