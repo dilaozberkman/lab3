@@ -43,13 +43,14 @@
 
     .color-scheme-switch {
         position: absolute; 
-        
         top: 1rem; 
         right: 1rem; 
-    
+        /* Ensure it stays on top of other elements */
+        z-index: 1000; 
+        
         display: inline-flex;
         gap: 4px;
-        font-size: 80%; 
+        font-size: 80%;
     }
 
     .color-scheme-switch select {
