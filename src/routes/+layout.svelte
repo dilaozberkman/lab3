@@ -12,6 +12,15 @@
         ];
 </script>
 
+<label class="color-scheme-switch">
+  Theme:
+  <select>
+    <option value="light dark">Automatic</option>
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+  </select>
+</label>
+
 <nav>
   {#each pages as p}
     <a 
@@ -30,6 +39,21 @@
     :global(html) {
         color-scheme: light dark;
         }
+
+    .color-scheme-switch {
+        position: absolute; 
+        
+        top: 1rem; 
+        right: 1rem; 
+    
+        display: inline-flex;
+        gap: 4px;
+        font-size: 80%; 
+    }
+
+    .color-scheme-switch select {
+        font-family: inherit;
+    }
 
     nav {
         --border-color: oklch(50% 10% 200 / 40%);
