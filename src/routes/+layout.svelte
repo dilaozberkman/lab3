@@ -49,7 +49,8 @@
     .color-scheme-switch {
         position: absolute; 
         top: 0.5rem;       
-        left: 90rem;   
+        left: 85rem;
+        margin-bottom: 1em;   
         
         display: inline-flex;
         gap: 4px;
