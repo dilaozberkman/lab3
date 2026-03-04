@@ -32,12 +32,10 @@
         }
 
     nav {
-        --border-color: oklch(50% 10% 200 / 50%);
+        --border-color: oklch(50% 10% 200 / 40%);
         display: flex; /* Turns nav into a flex container */
         margin-bottom: 1em;
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-        border-bottom-color: var(--border-color);
+        border-bottom: 4px solid var(--border-color);
     }
 
     nav a {
@@ -48,9 +46,7 @@
         padding: 0.5em;
     }
             nav a.current {
-                border-bottom-width: 0.4em;
-                border-bottom-style: solid;
-                border-bottom-color: var(--border-color);
+                border-bottom: 4px solid var(--border-color);
                 padding-bottom: 0.1em;
                 font-weight: bold;
     }
