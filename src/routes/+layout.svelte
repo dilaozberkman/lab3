@@ -1,11 +1,20 @@
-<nav class="menu">
-  <ul>
-    <li><a href=".">Home</a></li>
-    <li><a href="projects">Projects</a></li>
-    <li><a href="contact" class="current">Contact</a></li>
-    <li><a href="https://github.com/dilaozberkman" target="_blank">Profile</a></li>
-    <li><a href="resume">CV</a></li>
-  </ul>
+<script>
+    import { base } from "$app/paths";
+    let pages = [
+        {url: "/", title: "Home"},
+        {url: "/projects", title: "Projects"},
+        {url: "/resume", title: "CV"},
+        {url: "/contact", title: "Contact"},
+        {url: "https://github.com/dilaozberkman", title: "Github"},
+        ];
+</script>
+
+<nav>
+  {#each pages as p}
+    <a href={base + p.url}>
+      {p.title}
+    </a>
+  {/each}
 </nav>
 
 <slot />
