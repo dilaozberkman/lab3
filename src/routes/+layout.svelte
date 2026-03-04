@@ -10,15 +10,12 @@
         {url: "/contact", title: "Contact"},
         {url: "https://github.com/dilaozberkman", title: "Github"},
         ];
+    let colorScheme = "light dark";
 </script>
 
 <label class="color-scheme-switch">
   Theme:
-  <select>
-    <option value="light dark">Automatic</option>
-    <option value="light">Light</option>
-    <option value="dark">Dark</option>
-  </select>
+  <select bind:value={colorScheme}></select>
 </label>
 
 <nav>
