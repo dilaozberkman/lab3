@@ -15,7 +15,11 @@
 
 <label class="color-scheme-switch">
   Theme:
-  <select bind:value={colorScheme}></select>
+  <select bind:value={colorScheme}>
+    <option value="light dark">Automatic</option>
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+  </select>
 </label>
 
 <nav>
