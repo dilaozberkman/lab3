@@ -27,12 +27,16 @@
 </nav>
 
 <style>
+    :global(html) {
+        color-scheme: light dark;
+        }
+
     nav {
         display: flex; /* Turns nav into a flex container */
         margin-bottom: 1em;
         border-bottom-width: 1px;
         border-bottom-style: solid;
-        border-bottom-color: oklch(80% 3% 200);
+        border-bottom-color: var(--border-color);
     }
 
     nav a {
@@ -45,7 +49,7 @@
             nav a.current {
             border-bottom-width: 0.4em;
             border-bottom-style: solid;
-            border-bottom-color: var(--border-gray);
+            border-bottom-color: var(--border-color);
             padding-bottom: 0.1em;
             font-weight: bold;
     }
@@ -56,7 +60,7 @@
         border-bottom-style: solid;
         border-bottom-color: var(--color-accent);
         padding-bottom: 0.1em;
-        background-color: oklch(from var(--color-accent) 95% 5% h);
+        background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
     }
 </style>
 
