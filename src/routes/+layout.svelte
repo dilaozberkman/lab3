@@ -1,6 +1,7 @@
 <script>
     import { base } from "$app/paths";
     import { page } from "$app/stores";
+    import "../style.css";
 
     let pages = [
         {url: "/", title: "Home"},
@@ -24,5 +25,39 @@
     </a>
   {/each}
 </nav>
+
+<style>
+    nav {
+        display: flex; /* Turns nav into a flex container */
+        margin-bottom: 1em;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: oklch(80% 3% 200);
+    }
+
+    nav a {
+        flex: 1; /* step 2.2 for each element to take the same space  */
+        text-decoration: none; /* Remove the underline from the links by setting */
+        color: inherit;
+        text-align: center;
+        padding: 0.5em;
+    }
+            nav a.current {
+            border-bottom-width: 0.4em;
+            border-bottom-style: solid;
+            border-bottom-color: var(--border-gray);
+            padding-bottom: 0.1em;
+            font-weight: bold;
+    }
+
+    nav a:hover {
+        /* Add here hover effects */
+        border-bottom-width: 0.4em;
+        border-bottom-style: solid;
+        border-bottom-color: var(--color-accent);
+        padding-bottom: 0.1em;
+        background-color: oklch(from var(--color-accent) 95% 5% h);
+    }
+</style>
 
 <slot />

@@ -42,68 +42,6 @@ h2 {
   font-size: 200%;
 }
 
-
-/* STEP 2: Styling the navigation bar */
-
-/*
-   Step 2.1: Getting <ul> and <li> out of the way
-   "display: contents" removes default styling while keeping semantic structure
-   (you do not need to make any changes here for step 2.1, but please take note of it!)
-*/
-nav ul,
-nav li {
-    display: contents;
-}
-
-/* Step 2.2: Apply Flexbox to the navigation */
-nav {
-    display: flex; /* Turns nav into a flex container */
-    /* You will need to continue writing here for step 2.3 */
-    margin-bottom: 1em;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: oklch(80% 3% 200);
-}
-
-/* Step 2.3: Style navigation links for each element <a> */
-nav a {
-    flex: 1; /* step 2.2 for each element to take the same space  */
-    text-decoration: none; /* Remove the underline from the links by setting */
-    color: inherit;
-    text-align: center;
-    padding: 0.5em;
-    /* Add here color */
-    /* Add here text-align */
-    /* Add here padding */
-    /* Add here margin-bottom */
-}
-    /* NOTE: please make sure that in each index.html page you add class="current" to the current page*/
-        /* For example:  <a href="index.html" class="current">Home</a> */
-
-        nav a.current {
-          border-bottom-width: 0.4em;
-          border-bottom-style: solid;
-          border-bottom-color: var(--border-gray);
-          padding-bottom: 0.1em;
-          font-weight: bold;
-    /* Add here what your current page should look like at the navigation bar (highlight)*/
-}
-
-/* Before jumping to the next step, remember to complete wtep 2.3 by editing 'nav' */
-
-/*
-   Step 2.4: Accent color and hover styles
-*/
-nav a:hover {
-    /* Add here hover effects */
-    border-bottom-width: 0.4em;
-    border-bottom-style: solid;
-    border-bottom-color: var(--color-accent);
-    padding-bottom: 0.1em;
-    background-color: oklch(from var(--color-accent) 95% 5% h);
-}
-
-
 /*  STEP 3: Contact form layout */
 
 /* Step 3.1: Integrate typography */
