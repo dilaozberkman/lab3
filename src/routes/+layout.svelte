@@ -48,8 +48,8 @@
 
     .color-scheme-switch {
         position: absolute; 
-        top: 1rem;       
-        left: 15rem;   
+        top: 0.5rem;       
+        left: 90rem;   
         
         display: inline-flex;
         gap: 4px;
