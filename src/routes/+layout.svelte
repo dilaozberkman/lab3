@@ -32,7 +32,7 @@
         }
 
     nav {
-        --border-color: oklch(50% 10% 200 / 40%);
+        --border-color: oklch(50% 10% 200 / 80%);
         display: flex; /* Turns nav into a flex container */
         margin-bottom: 1em;
         border-bottom-width: 1px;
@@ -48,7 +48,6 @@
         padding: 0.5em;
     }
             nav a.current {
-                --border-color: oklch(50% 10% 200 / 40%);
                 border-bottom-width: 0.4em;
                 border-bottom-style: solid;
                 border-bottom-color: var(--border-color);
