@@ -10,9 +10,12 @@
         {url: "/contact", title: "Contact"},
         {url: "https://github.com/dilaozberkman", title: "Github"},
         ];
-    let colorScheme = "light dark";
+    
+    let localStorage = globalThis.localStorage ?? {};
+    let colorScheme = localStorage.colorScheme ?? "light dark";
     let root = globalThis.document?.documentElement;
     $: root?.style.setProperty("color-scheme", colorScheme);
+    $: localStorage.colorScheme = colorScheme;
 </script>
 
 <label class="color-scheme-switch">
